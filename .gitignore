@@ -6,9 +6,6 @@
 # Files for the Dalvik VM
 *.dex
 
-# Java class files
-*.class
-
 # Generated files
 bin/
 gen/
@@ -34,10 +31,6 @@ captures/
 
 ### Android Patch ###
 gen-external-apklibs
-
-
-### Gradle ###
-.gradle
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -88,3 +81,6 @@ gradle-app.setting
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+.idea/inspectionProfiles/
+src/main/resources/
+src/test/
